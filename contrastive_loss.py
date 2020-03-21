@@ -4,7 +4,7 @@ import numpy as np
 
 @tf.function
 def contrastive_loss(xi, xj,  tau=1, normalize=False):
-        ''' this loss was inspred by the torch implementation here: https://github.com/mdiephuis/SimCLR/
+        ''' this loss is the modified torch implementation by M Diephuis here: https://github.com/mdiephuis/SimCLR/
         the inputs:
         xi, xj: image features extracted from a batch of images 2N, composed of N matching paints
         tau: temperature parameter
