@@ -7,6 +7,7 @@ In this repo I just adapted the loss function to be used as a custom loss layer 
 This project contains two files:
 
 contrastive_loss.py
+
 main.py
 
 The main file implements a simple siamese-like model in Keras and demonstrates how the custom contrastive (NT_Xent) loss can be plugged in.
